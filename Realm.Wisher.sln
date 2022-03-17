@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realm.Wisher.Core", "Realm.Wisher.Core\Realm.Wisher.Core.csproj", "{8614E9F5-F5D1-41ED-81DA-97E0161F6DD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realm.Wisher.Infrastructure", "Realm.Wisher.Infrastructure\Realm.Wisher.Infrastructure.csproj", "{95048A31-A278-4C0D-91D4-79239A0F2E4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realm.Wisher.Worker", "Realm.Wisher.Worker\Realm.Wisher.Worker.csproj", "{12FC8E83-8711-437B-AFD8-74B29626DF35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realm.Wisher.Services", "Realm.Wisher.Services\Realm.Wisher.Services.csproj", "{EB586E01-1D80-4FFE-A8DE-094E2F8160C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realm.Wisher.Tests", "Realm.Wisher.Tests\Realm.Wisher.Tests.csproj", "{08EA4F1D-AAE0-49BF-958E-143B2DBDA296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8614E9F5-F5D1-41ED-81DA-97E0161F6DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8614E9F5-F5D1-41ED-81DA-97E0161F6DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8614E9F5-F5D1-41ED-81DA-97E0161F6DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8614E9F5-F5D1-41ED-81DA-97E0161F6DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95048A31-A278-4C0D-91D4-79239A0F2E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95048A31-A278-4C0D-91D4-79239A0F2E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95048A31-A278-4C0D-91D4-79239A0F2E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95048A31-A278-4C0D-91D4-79239A0F2E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FC8E83-8711-437B-AFD8-74B29626DF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FC8E83-8711-437B-AFD8-74B29626DF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FC8E83-8711-437B-AFD8-74B29626DF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FC8E83-8711-437B-AFD8-74B29626DF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB586E01-1D80-4FFE-A8DE-094E2F8160C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB586E01-1D80-4FFE-A8DE-094E2F8160C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB586E01-1D80-4FFE-A8DE-094E2F8160C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB586E01-1D80-4FFE-A8DE-094E2F8160C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EA4F1D-AAE0-49BF-958E-143B2DBDA296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EA4F1D-AAE0-49BF-958E-143B2DBDA296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EA4F1D-AAE0-49BF-958E-143B2DBDA296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EA4F1D-AAE0-49BF-958E-143B2DBDA296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D078ECDC-D147-465D-8F89-A9C68CE03506}
+	EndGlobalSection
+EndGlobal
